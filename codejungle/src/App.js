@@ -1,8 +1,10 @@
 import './App.css';
+import Footer from './components/Footer.js';
 function App() {
   return (
     <div className="App">
      <h1>Vitaj na nasom webe!</h1>
+        <Footer />
     </div>
   );
 }
