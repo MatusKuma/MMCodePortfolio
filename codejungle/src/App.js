@@ -1,11 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
+import Body from './components/Body.js';
 function App() {
   return (
     <div className="App">
       <Navbar />
-     <h1>Vitaj na nasom webe!</h1>
+     <Body />
 
         
         <Footer />
