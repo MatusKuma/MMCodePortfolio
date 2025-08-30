@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CodeJunglePortfolio/static/css/main.f685c1c5.css",
-    "main.js": "/CodeJunglePortfolio/static/js/main.fe31b9c9.js",
+    "main.css": "/CodeJunglePortfolio/static/css/main.9ac28431.css",
+    "main.js": "/CodeJunglePortfolio/static/js/main.8926fa98.js",
     "index.html": "/CodeJunglePortfolio/index.html",
-    "main.f685c1c5.css.map": "/CodeJunglePortfolio/static/css/main.f685c1c5.css.map",
-    "main.fe31b9c9.js.map": "/CodeJunglePortfolio/static/js/main.fe31b9c9.js.map"
+    "main.9ac28431.css.map": "/CodeJunglePortfolio/static/css/main.9ac28431.css.map",
+    "main.8926fa98.js.map": "/CodeJunglePortfolio/static/js/main.8926fa98.js.map"
   },
   "entrypoints": [
-    "static/css/main.f685c1c5.css",
-    "static/js/main.fe31b9c9.js"
+    "static/css/main.9ac28431.css",
+    "static/js/main.8926fa98.js"
   ]
 }
