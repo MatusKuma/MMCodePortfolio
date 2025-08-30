@@ -1,0 +1,22 @@
+.HomePage, .Projects, .Contacts {
+  background: #233f64;
+  color: white;
+  position: absolute;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Wrapper vyplní výšku okna */
+
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.HomeContent, .ProjectsContent, .ContactsContent {
+  flex: 1; /* hlavný obsah zaberie všetok voľný priestor */
+  position: relative; /* pre Background */
+}

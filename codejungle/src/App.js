@@ -1,16 +1,29 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar.js';
-import Footer from './components/Footer.js';
-import Body from './components/Body.js';
+import Projects from './pages/Projects.js';
+import Contacts from './pages/Contacts.js';
+import HomePage from './pages/HomePage.js';
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-     <Body />
-
+    <>
+     <BrowserRouter>
+       <Routes>
+        <Route index element={<HomePage/>}/>
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contacts" element={<Contacts />} />
+        <Route path="/*" element={<Projects />} />
         
-        <Footer />
-    </div>
+      </Routes>
+    </BrowserRouter>
+      
+    </>
+    //vytvorit HP
+    //krajsi navbar
+    //poriesit UI
+    //update routeru
+
+
+  
   );
 }
 

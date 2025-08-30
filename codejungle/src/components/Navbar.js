@@ -1,15 +1,14 @@
+import '../styles/Navbar.css'
 function Navbar() {
     return (
-        <div>
+        <div className='Nav'>
             <ul>
-            <li>Home</li>
-            <li>Our Projects</li>
-            <li>Contact</li>
+                <li><a href="/">Domov</a></li>
+                <li><a href="/Projects">Projekty</a></li>
+                <li><a href="/Contacts">Kontakty</a></li>
             </ul>
             
         </div>
         );
 }
-
-
 export default Navbar;

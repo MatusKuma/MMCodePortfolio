@@ -2,17 +2,18 @@ import "../styles/Background.css";
 import Navbar from "../components/Navbar";
 import Background from "../components/Background";
 import Footer from "../components/Footer";
-export default function Projects() {
+export default function Contacts() {
   return (
     <>
-      <div className="Projects">
+      <div className="Contacts">
         <Navbar />
-        <main className="ProjectsContent">
-          <h3>Toto je Our Projects</h3>
+        <main className="ContactsContent">
+          <h3>Toto je Our CONTACTYYYYYYYYYYYYYYY</h3>
           <Background />
         </main>
-        <Footer/>
+        <Footer />
       </div>
+
     </>
   );
 }

@@ -1,0 +1,20 @@
+
+/* Footer */
+.Footer {
+  background: linear-gradient(90deg, #1e293b, #0f172a);
+  color: #f1f5f9;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Footer h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #94a3b8;
+  transition: color 0.3s ease;
+}
+
+
