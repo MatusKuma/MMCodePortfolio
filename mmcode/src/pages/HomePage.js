@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   ChevronRight,
   Users,
@@ -73,14 +74,25 @@ export default function HomePage() {
             <p className="hero-description">
               Sme partnerom pre digitálny rast – od prvotného konceptu až po
               hotový web, ktorý nielen dobre vyzerá, ale aj zvyšuje efektivitu,
-              dosah a dôveru vašich zákazníkov.
+              a dôveru vašich zákazníkov.
             </p>
             <div className="hero-buttons">
-              <button className="btn-primary">
+              <button
+                className="btn-primary"
+                onClick={() => {
+                  const section = document.getElementById("what-we-offer");
+                  if (section) {
+                    section.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+              >
                 Objavte naše riešenia
                 <ChevronRight className="w-5 h-5" />
               </button>
-              <button className="btn-secondary">Čo sme vytvorili</button>
+
+              <Link to="/Projects" className="btn-secondary">
+                Čo sme vytvorili
+              </Link>
             </div>
           </div>
           <div className="hero-image">
@@ -93,7 +105,7 @@ export default function HomePage() {
         </section>
 
         {/* About Section */}
-        <section className="about-section">
+        <section className="about-section" id="what-we-offer">
           <div className="container">
             <h2 className="section-title">Čo ponúkame</h2>
             <div className="services-grid">
