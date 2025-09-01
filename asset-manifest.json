@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CodeJunglePortfolio/static/css/main.9ac28431.css",
-    "main.js": "/CodeJunglePortfolio/static/js/main.8926fa98.js",
-    "index.html": "/CodeJunglePortfolio/index.html",
-    "main.9ac28431.css.map": "/CodeJunglePortfolio/static/css/main.9ac28431.css.map",
-    "main.8926fa98.js.map": "/CodeJunglePortfolio/static/js/main.8926fa98.js.map"
+    "main.css": "/MMCodePortfolio/static/css/main.9ac28431.css",
+    "main.js": "/MMCodePortfolio/static/js/main.8926fa98.js",
+    "index.html": "/MMCodePortfolio/index.html",
+    "main.9ac28431.css.map": "/MMCodePortfolio/static/css/main.9ac28431.css.map",
+    "main.8926fa98.js.map": "/MMCodePortfolio/static/js/main.8926fa98.js.map"
   },
   "entrypoints": [
     "static/css/main.9ac28431.css",
